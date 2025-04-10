@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Praveen Sentha</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://rjshkhr.github.io/cleanfolio-minimal" class="link"
+          >PS.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <!-- 
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#about">Experience</a>
+          </li>
+          -->
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Praveen Sentha.</span></h1>
+        <h2 style="margin-bottom: 1em;"> I am a <span id="typed"></span></h2>
+
+        <p class="about__desc">
+          Passionate about cloud automation and AI, always looking for ways to improve systems and solve complex challenges. I specialize in optimizing workflows using tools like Azure, Kubernetes, and Python. As a lifelong learner, I'm always eager to explore new technologies and collaborate on innovative projects that drive will make an impact.
+        </p>
+
+        <div class="about__contact center">
+          <a 
+          href="https://drive.google.com/file/d/1uMKvPUc--YTagfEsn_tdd0FBTJxUzWG7/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/psentha02"
+            aria-label="github"
+            class="link link--icon"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/praveen-sentha"
+            aria-label="linkedin"
+            class="link link--icon"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Experiences</h2>
+
+        <div class="projects__grid">
+          
+
+          <div class="project">
+            <h3>Qualcomm</h3>
+            <p class="project__date">February 2024 - Present</p>
+            <ul class="project__description">
+              <li>Built a scalable Azure monitoring solution using PowerShell, Python, and Azure DevOps to automate SCVMM data ingestion and visualize infrastructure KPIs and migration progress in Grafana.</li>
+              <li>Improved incident response and visibility by integrating real-time Teams and email alerts, enabling teams to proactively manage patching, security, and cloud issues across a multi-OS environment.</li>
+              <li>Led a company-wide vDesk password rotation initiative, coordinating with cross-functional teams to ensure secure, disruption-free rollout across diverse infrastructure.</li>
+              <li>Developed scripts to configure subnets, manage access controls, and handle resource-specific constraints, ensuring a secure and compliant deployment.</li>
+              <li>Mentored an incoming intern by providing technical guidance, onboarding support, and project mentorship to accelerate their learning experience and integration within the team.</li>
+            </ul>
+            <ul class="project__stack">
+              <li class="project__stack-item">Azure Cloud Services</li>
+              <li class="project__stack-item">Grafana</li>
+              <li class="project__stack-item">Powershell</li>
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">VMware</li>
+              <li class="project__stack-item">Azure DevOps</li>
+              <li class="project__stack-item">SQL</li>
+              <li class="project__stack-item">Kubernetes</li>
+            </ul>
+          </div>
+          
+          <!--
+          <div class="project">
+            <h3>Project 3</h3>
+            <p class="project__description">
+              Ipsum accusamus ea excepturi aliquid eligendi amet. Explicabo
+              sapiente debitis labore sed ipsam Mollitia repellat illum quod
+              unde beatae Quis
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SASS</li>
+              <li class="project__stack-item">TypeScript</li>
+              <li class="project__stack-item">React</li>
+            </ul>
+
+            <a
+              href="https://github.com"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://example.com"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          -->
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">Azure</li>
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">Grafana</li>
+          <li class="skills__list-item btn btn--plain">Kubernetes</li>
+          <li class="skills__list-item btn btn--plain">Cloud Infrastructure</li>
+          <li class="skills__list-item btn btn--plain">Gen AI</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Powershell</li>
+          <li class="skills__list-item btn btn--plain">CI/CD</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:praveen.sentha@gmail.com">
+          <span class="btn btn--outline">Email Me</span>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/rjshkhr/cleanfolio-minimal"
+        class="link footer__link"
+      >
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var typed = new Typed("#typed", {
+          strings: ["Developer", "Learner", "Sports Enthusiast"],
+          typeSpeed: 60,
+          backSpeed: 40,
+          backDelay: 1500,
+          loop: true
+        });
+      });
+    </script>
+    
+  </body>
+</html>
